@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.titolo {
+    margin-bottom: 50px;
+}
+
+.riga {
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.card-con {
+    display: flex;
+    margin-left: 13%;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: calc(100% / 3);
+}
