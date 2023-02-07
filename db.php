@@ -5,10 +5,10 @@ include __DIR__ . './Models/accessoriAnimali.php';
 include __DIR__ . './Models/giochiAnimali.php';
 
 
-$product1 = new ciboAnimali("Royal Canin Mini Adult", "43,99",  "https://cdn.dogsitter.it/it/images/shop/rc-dog-mini-adult-big.jpg", "Cane", "545g");
-$product2 = new ciboAnimali("Almo Nature Holistic Maintenance Mediuom Large Tonno e Riso", "44,99",  "https://shop-cdn-m.mediazs.com/bilder/almo/nature/holistic/medium/adult/con/agnello/fresco/3/800/26699_pla_almo_nature_holistic_adult_lamm_reis_medium_741_12kg_dog_3.jpg", "Cane", "600g");
-$product3 = new ciboAnimali("Almo Nature Cat Daily Lattina", "34,99",  "https://www.amoreanimaleshop.it/wp-content/uploads/2021/02/Almo-Nature-Cat-Daily-Coniglio-400.jpg", "Gatto", "400g");
-$product4 = new ciboAnimali("Mangime Per Pesci Guppy in Fiocchi", "2,95",  "https://www.pets-house.it/6903-large_default/tetra-guppy-fiocchi-100-ml.jpg", "Pesce", "30g");
+$product1 = new ciboAnimali("Royal Canin Mini Adult", "43,99",  "https://cdn.dogsitter.it/it/images/shop/rc-dog-mini-adult-big.jpg", "Cane", "545g", "Prosciutto, riso");
+$product2 = new ciboAnimali("Almo Nature Holistic Maintenance Mediuom Large Tonno e Riso", "44,99",  "https://shop-cdn-m.mediazs.com/bilder/almo/nature/holistic/medium/adult/con/agnello/fresco/3/800/26699_pla_almo_nature_holistic_adult_lamm_reis_medium_741_12kg_dog_3.jpg", "Cane", "600g", "Manzo, Cereali");
+$product3 = new ciboAnimali("Almo Nature Cat Daily Lattina", "34,99",  "https://www.amoreanimaleshop.it/wp-content/uploads/2021/02/Almo-Nature-Cat-Daily-Coniglio-400.jpg", "Gatto", "400g", "Tonno, Pollo, Prosciutto");
+$product4 = new ciboAnimali("Mangime Per Pesci Guppy in Fiocchi", "2,95",  "https://www.pets-house.it/6903-large_default/tetra-guppy-fiocchi-100-ml.jpg", "Pesce", "30g", "Pesci e sottoporodtti dei pesci, Cereali, Lieviti, Alghe");
 
 $products = [$product1, $product2, $product3, $product4];
 

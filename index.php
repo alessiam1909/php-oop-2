@@ -43,6 +43,11 @@ include __DIR__ . '/db.php'
                                     <?php echo $prodotto->weight; ?>
                                 </span>
                             </p>
+                            <p class="card-text">Ingredienti:
+                                <span>
+                                    <?php echo $prodotto->ingredients; ?>
+                                </span>
+                            </p>
                         </div>
                     </div>
                 <?php } ?>
