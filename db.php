@@ -4,7 +4,7 @@ include __DIR__ . './Models/ciboAnimali.php';
 include __DIR__ . './Models/accessoriAnimali.php';
 include __DIR__ . './Models/giochiAnimali.php';
 
-
+//Cibo animali
 $product1 = new ciboAnimali("Royal Canin Mini Adult", "43,99",  "https://cdn.dogsitter.it/it/images/shop/rc-dog-mini-adult-big.jpg", "Cane", "545g", "Prosciutto, riso");
 $product2 = new ciboAnimali("Almo Nature Holistic Maintenance Mediuom Large Tonno e Riso", "44,99",  "https://shop-cdn-m.mediazs.com/bilder/almo/nature/holistic/medium/adult/con/agnello/fresco/3/800/26699_pla_almo_nature_holistic_adult_lamm_reis_medium_741_12kg_dog_3.jpg", "Cane", "600g", "Manzo, Cereali");
 $product3 = new ciboAnimali("Almo Nature Cat Daily Lattina", "34,99",  "https://www.amoreanimaleshop.it/wp-content/uploads/2021/02/Almo-Nature-Cat-Daily-Coniglio-400.jpg", "Gatto", "400g", "Tonno, Pollo, Prosciutto");
@@ -32,7 +32,7 @@ function setIcon($race)
     }elseif($race == 'Pesce'){
         return '<i class="fa-solid fa-fish-fins"></i>';
     }elseif($race == 'Uccello'){
-        return '<i class="fa-solid fa-kiwi-bird"></i>';
+        return '<i class="fa-solid fa-dove"></i>';
     }
 }
 
